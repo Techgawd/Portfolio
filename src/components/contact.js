@@ -2,20 +2,12 @@ import React from 'react';
 import '../App.css';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import Projects from './Projects';
-import LiteworkerLogo_Horiz_Transparent from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/LiteworkerLogo_Horiz_Transparent.png';
-import { Route, Link } from 'react-router-dom';
+import Nav from './Nav';
 
-function Nav() {
+function Contact() {
   return (
     <div className="App">
-    <img className='logo' src={LiteworkerLogo_Horiz_Transparent} />
-    <br />
-    <Route exact path="/portfolio" component={Projects} />
-    <Button variant="warning"><Link to="/portfolio">Portfolio</Link></Button>
-    <Button variant="warning"><Link to="/bio">Bio</Link></Button>
-    <Button variant="warning">Contact</Button>
-    {/* <Projects /> */}
+    <Nav />
     <div className="form">
     <Form>
   <Form.Group controlId="formBasicEmail">
@@ -42,4 +34,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Contact;

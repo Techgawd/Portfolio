@@ -1,19 +1,18 @@
 import React from 'react';
 import '../App.css';
 import Button from 'react-bootstrap/Button';
-import Projects from './Projects';
 import LiteworkerLogo_Horiz_Transparent from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/LiteworkerLogo_Horiz_Transparent.png';
-import { Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
     <div className="App">
-    <img className='logo' src={LiteworkerLogo_Horiz_Transparent} />
+    <img className='logo' alt="" src={LiteworkerLogo_Horiz_Transparent} />
     <br />
-    <Route exact path="/portfolio" component={Projects} />
-    <Button variant="warning"><Link to="/portfolio">Portfolio</Link></Button>
-    <Button variant="warning"><Link to="/bio">Bio</Link></Button>
-    <Button variant="warning"><Link to="/contact">Contact</Link></Button>
+    <Button bsClass="btn" variant="warning"><Link className="link" to="/">HOME</Link></Button>
+    <Button variant="warning"><Link className="link" to="/portfolio">PORTFOLIO</Link></Button>
+    <Button variant="warning"><Link className="link" to="/bio">BIO</Link></Button>
+    <Button variant="warning"><Link className="link" to="/contact">CONTACT</Link></Button>
     {/* <Projects /> */}
     </div>
   );

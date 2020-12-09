@@ -1,23 +1,23 @@
 import React from 'react';
 import '../App.css';
-import Button from 'react-bootstrap/Button';
-import LiteworkerLogo_Horiz_Transparent from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/LiteworkerLogo_Horiz_Transparent.png';
 import techgawd from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/techgawd.jpg';
-import { Route, Link } from 'react-router-dom';
+import avatar from '../images/avatar.png'
+import Nav from './Nav';
 
-function Nav() {
+function Bio() {
   return (
     <div className="App">
-    <img className='logo' src={LiteworkerLogo_Horiz_Transparent} />
-    <br />
-    <Button variant="warning"><Link to="/portfolio">Portfolio</Link></Button>
-    <Button variant="warning"><Link to="/bio">Bio</Link></Button>
-    <Button variant="warning"><Link to="/contact">Contact</Link></Button>
-    {/* <Projects /> */}
-    <h1>Bio</h1>
+    <Nav />
+    <section className="bio">
+    <h1 className="debug"></h1>
+    <section className="bioSection">
     <img className='mePic' src={techgawd} />
+    <p>I am Angela and I will write lots of stuff here</p>
+    <img className='avatarPic' alt=""  src={avatar} />
+    </section>
+    </section>
     </div>
   );
 }
 
-export default Nav;
+export default Bio;
