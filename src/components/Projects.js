@@ -1,12 +1,12 @@
 import React from 'react';
 import '../App.css';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card'
+// import Button from 'react-bootstrap/Button';
+// import Card from 'react-bootstrap/Card'
 import Nav from './Nav';
-import Darkmode from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/Darkmode.png';
-import ReducerToDo from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/Reducer-to-do.png';
-import SmurfsRedux from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/SmurfsRedux.png';
-import QuoteGenerator from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/QuoteGenerator.png';
+// import Darkmode from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/Darkmode.png';
+// import ReducerToDo from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/Reducer-to-do.png';
+// import SmurfsRedux from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/SmurfsRedux.png';
+// import QuoteGenerator from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/QuoteGenerator.png';
 
 function Projects() {
   return (
