@@ -15,6 +15,7 @@ function Bio() {
     <p>I am Angela and I will write lots of stuff here</p>
     <img className='avatarPic' alt=""  src={avatar} />
     </section>
+    
     </section>
     </div>
   );
