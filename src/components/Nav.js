@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import Button from 'react-bootstrap/Button';
-import LiteworkerLogo_Horiz_Transparent from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/LiteworkerLogo_Horiz_Transparent.png';
+import LiteworkerLogo_Horiz_Transparent from '../images/LiteworkerLogo_Horiz_Transparent.png';
 import { Link } from 'react-router-dom';
 
 function Nav() {
