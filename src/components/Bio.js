@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import techgawd from '/Users/lambda_school_loaner_97/Documents/Graduate/portfolio2/src/images/techgawd.jpg';
+import techgawd from '../images/techgawd.jpg';
 import avatar from '../images/avatar.png'
 import Nav from './Nav';
 
@@ -15,7 +15,7 @@ function Bio() {
     <p>I am Angela and I will write lots of stuff here</p>
     <img className='avatarPic' alt=""  src={avatar} />
     </section>
-    
+
     </section>
     </div>
   );
