@@ -9,9 +9,9 @@ function Bio() {
     <div className="App">
     <Nav />
     <section className="bio">
-    <h1 className="debug"></h1>
+    <h1 className="debug">.</h1>
     <section className="bioSection">
-    <img className='mePic' src={techgawd} />
+    <img alt="" className='mePic' src={techgawd} />
     <p>I am Angela and I will write lots of stuff here</p>
     <img className='avatarPic' alt=""  src={avatar} />
     </section>
