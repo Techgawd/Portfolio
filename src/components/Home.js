@@ -50,7 +50,7 @@ function Home() {
     </div>
     </div>
     <footer>
-      @Liteworker 2020
+      @Liteworker 2021
     </footer>
     </section>
     </div>
