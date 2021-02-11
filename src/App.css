@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  /* background-color: #60AFFE; */
+  background-color: white;
 }
 
 .logo {
@@ -23,33 +25,42 @@
 }
 
 .bio {
-  background-image: url(./images/starBG.jpg);
+  /* background-image: url(./images/starBG.jpg); */
+  background-color: #C6E2FF;
   height: 900px;
 }
 
 .bioSection {
-  background-color: #F3C333;
+  background-color: #C6E2FF;
   margin-top: 34px;
   margin-left: 80px;
   margin-right: 80px;
 }
 
+.aboutMe {
+  /* width: 65%; */
+  height: 750px;
+}
+
 .mePic {
   width: 180px;
   margin: 80px;
+  border: 20px solid #60AFFE;
 }
 
 .projectSection {
-  background-image: url(./images/starBG.jpg);
+  /* background-image: url(./images/starBG.jpg); */
   width: 100%;
   height: 500px;
+  background-color: #C6E2FF;
 
 }
 
 
 .form {
   padding: 200px;
-  background-image: url(./images/starBG.jpg);width: 100%;
+  background-color: #C6E2FF;
+  width: 100%;
   height: 500px;
 
 
@@ -62,7 +73,7 @@
 
 .home {
   /* background-image: url(./images/starBG.jpg); */
-  background-color: black;
+  background-color: #C6E2FF;
   width: 100%;
   height: 1200px;
 }
@@ -84,6 +95,12 @@
   margin-left: 50px;
   font-family: 'JetBrains Mono', monospace;
   color: black;
+}
+
+.bioText {
+  font-family: 'JetBrains Mono', monospace;
+  color: black;
+  font-size: 1.5rem
 }
 
 .headshot {
@@ -138,7 +155,17 @@ footer {
   margin-top: 55px;
 }
 
+.bioFooter {
+  background-color: black;
+  height: 20%;
+  margin-top: 55px;
+}
 .debug {
   height: 1px;
   color: #F3C333;
+}
+
+.border {
+  transform: rotate(90deg);
+transform: scaleX(-1);
 }
