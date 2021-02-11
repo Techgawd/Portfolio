@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Projects from './Projects';
 import LiteworkerLogo_Horiz_Transparent from '../images/LiteworkerLogo_Horiz_Transparent.png';
 import headshot from '../images/headshot.JPG';
-import border from '../images/border.png';
+// import border from '../images/border.png';
 import avatar from '../images/avatar.png'
 import { Route, Link } from 'react-router-dom';
 // import Slider from './Slider';
