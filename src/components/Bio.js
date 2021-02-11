@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
-import techgawd from '../images/techgawd.jpg';
-import avatar from '../images/avatar.png'
+// import techgawd from '../images/techgawd.jpg';
+// import avatar from '../images/avatar.png'
 import aboutMe from "../images/aboutMe.png";
 import Nav from './Nav';
 

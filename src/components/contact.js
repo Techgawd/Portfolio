@@ -1,15 +1,15 @@
 import React from 'react';
 import '../App.css';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+// import Button from 'react-bootstrap/Button';
+// import Form from 'react-bootstrap/Form';
 import Nav from './Nav';
 
 function Contact() {
   return (
     <div className="App">
-    <Nav />
-    <div className="form">
-    <Form>
+      <Nav />
+      <div className="form">
+        {/* <Form>
   <Form.Group controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
@@ -28,8 +28,8 @@ function Contact() {
   <Button variant="primary" type="submit">
     Submit
   </Button>
-</Form>
-</div>
+</Form> */}
+      </div>
     </div>
   );
 }
